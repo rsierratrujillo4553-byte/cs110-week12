@@ -1,164 +1,112 @@
-# CS110 Week 12 – 3D Space Shooter Project
+# CS110 – Week 12: Game Development Pipeline
+
+**Date:** November 12, 2026  
+**Course:** CS110 – Computer Science  
+**Project:** 3D Game Development Using Unity  
+**Work Type:** Individual Project
 
 ## Project Overview
 
-For my CS110 Week 12 project, I decided to create a 3D space shooter game using Unity and C#. Since I am working solo, I am responsible for planning, developing, testing, and documenting my project.
+For Week 12, I worked on learning the game development pipeline and how to use Unity to create a 3D game. I followed six tutorial videos that explained how to plan a game, organize files, create documentation, set up Unity, and import a custom player.
 
-My goal is to create a playable game where the player controls a spaceship, shoots enemy ships, and earns points. I chose this project because I enjoy video games and want to improve my programming and game development skills.
+My goal was to use what I learned to develop my own 3D game while keeping everything organized.
 
-## Week 12A – Planning and Preparation
+## What I Worked On Today
 
-During Week 12A, I focused on organizing my project and preparing everything I need before starting development.
+### 1. Game Development Pipeline
 
-### What I Accomplished
+I learned the importance of following a development process instead of jumping straight into coding. Having a plan helps me understand what I need to do and keeps my project organized.
 
-- Chose my project mission and playable goal.
-- Decided to create a 3D game instead of a 2D game.
-- Selected Unity and C# for development.
-- Created a production pipeline.
-- Planned my C# classes, variables, and functions.
-- Created a solo development schedule.
-- Assigned myself tasks and deadlines.
-- Planned how I will test my game.
-- Documented my work and uploaded evidence to GitHub.
+### 2. Project Documentation
 
-## Project Tools
+I worked on organizing my project and understanding how a Game Development Document (GDD) can help plan a game.
 
-| Tool | Purpose |
-|---|---|
-| Unity | Create and test my 3D game |
-| C# | Program player movement, shooting, and enemies |
-| Visual Studio | Write and debug my C# scripts |
-| Git | Track changes to my project |
-| GitHub | Store my project and document my progress |
+I learned that documentation should include:
 
-## Game Concept
+- Game overview and story
+- Game mechanics
+- Project requirements
+- Development resources
+- Progress and milestones
 
-**Game Type:** 3D Space Shooter
+### 3. Unity Project Setup
 
-**Game Engine:** Unity
+I worked on my 3D Unity project and organized the files needed for development.
 
-**Programming Language:** C#
+My project includes folders for:
 
-**Development:** Solo
+- Scenes
+- Scripts
+- Materials
+- Prefabs
 
-### Story
+Keeping these files organized makes it easier for me to find and manage my work.
 
-The player is a spaceship pilot traveling through space while facing enemy ships. The goal is to survive enemy attacks, destroy enemies, and earn points.
+### 4. Importing a Custom Player – Video 6
 
-### Planned Gameplay Features
+I completed Video 6, which focuses on importing a custom 3D character into Unity.
 
-1. 3D spaceship movement
-2. Third-person camera
-3. Laser shooting
-4. Enemy spaceships
-5. Collision detection
-6. Player health
-7. Score system
-8. Game Over screen
+I learned about:
 
-These are planned features and have not all been implemented yet.
+- Downloading 3D characters from Mixamo
+- Importing character models
+- Setting up Humanoid rigs
+- Configuring character materials
+- Understanding prefabs
+- Replacing the default player model
 
-## Development Framework
+I finished customizing my player and testing the game.
 
-I chose the ADD (Attribute-Driven Design) framework to help organize my project.
+## Testing and Debugging
 
-My plan is to focus on the most important features first. I will start with the spaceship and player controls, then move on to shooting, enemies, health, and scoring.
+I tested my Unity project to make sure the player and its features worked correctly.
 
-I will test each feature before adding something new.
+My completed testing checklist includes:
 
-## Production Pipeline
+- [x] Confirm the project opens in Unity.
+- [x] Test player movement.
+- [x] Check the custom character's appearance.
+- [x] Check animations.
+- [x] Review the Unity Console for errors.
+- [x] Fix any problems and test again.
 
-1. **Goal:** Create a playable 3D space shooter.
-2. **Inputs:** Unity, C#, Visual Studio, GitHub, and 3D assets.
-3. **Tasks:** Create the spaceship, program movement, and build gameplay mechanics.
-4. **Output:** A working 3D game prototype.
-5. **Testing:** Check movement, shooting, collisions, and gameplay.
+## Evidence of My Work
 
-## Planned C# Classes
+My evidence includes:
 
-| Class | Purpose |
-|---|---|
-| PlayerController | Controls spaceship movement |
-| PlayerShooting | Handles laser shooting |
-| Laser | Controls laser projectiles |
-| EnemyController | Controls enemy behavior |
-| PlayerHealth | Tracks player health |
-| GameManager | Manages score and game state |
+- My saved Unity project files
+- My organized project folders
+- My C# scripts and prefabs
+- My Week 12 development notes
+- My development process whiteboard
 
-## Solo Development Plan
+## What I Learned
 
-Since I am working solo, I will be responsible for every part of the project.
+I learned that making a game is more than just writing code. It also involves planning, organizing files, creating documentation, importing assets, and testing everything. I also learned how prefabs work in Unity and how they can save time when creating multiple objects.
 
-My working plan is to:
+One thing I found useful was learning how to organize my project before adding more features. I think this will help me when I start working on bigger games in the future.
 
-- Focus on one feature at a time.
-- Test my code regularly.
-- Fix errors before moving forward.
-- Save my progress using Git and GitHub.
-- Keep my README updated.
-- Ask questions when I need help.
+## Challenges
 
-## Week 12A GitHub Checkpoint
+One challenge was learning how all the different parts of Unity work together, especially when importing a custom character and setting up its animations.
 
-**Repository:**
-https://github.com/rsierratrujillo4553-byte/cs110-week12
+I worked through the character setup, tested the results, and completed the changes needed for my project.
 
-**Branch:** main
+## Completed Tasks
 
-**Commit ID:** 577f99d
+- [x] Finished Video 6.
+- [x] Completed my custom player setup.
+- [x] Tested the character's movement and animations.
+- [x] Fixed the errors I found.
+- [x] Added and tested gameplay features.
+- [x] Saved my progress and pushed my updates to GitHub.
 
-**Commit Link:**
-https://github.com/rsierratrujillo4553-byte/cs110-week12/commit/577f99d
+## GitHub Repository
 
-### Evidence
+**Repository:** https://github.com/rsierratrujillo4553-byte/cs110-week12
 
-My Week 12A evidence is stored in:
+**Latest Commit:** [cb94d42](https://github.com/rsierratrujillo4553-byte/cs110-week12/commit/cb94d422260acba54d11043ffdf3b665f52220e1)
 
-`12A/Evidence/`
+## Conclusion
 
-The checkpoint includes the following PDF files:
-
-- `FORM-51426BF1736A124E5873680F.pdf`
-- `FORM-E8BEB08EE808039F84FB7550.pdf`
-- `PREP-5924A7036BB07FBF208B0CCB.pdf`
-
-These files document my Week 12A preparation and planning work.
-
-## Week 12B – Next Steps
-
-For Day B, I plan to start working directly in Unity.
-
-My next tasks are:
-
-1. Set up my Unity 3D project.
-2. Organize my project folders.
-3. Create or import my 3D spaceship.
-4. Write my first C# player movement script.
-5. Test the spaceship controls.
-6. Fix any errors.
-7. Commit and push my progress to GitHub.
-
-**Target Deadline:** November 13, 2026
-
-## Possible Challenges
-
-Some challenges I might run into include:
-
-- C# programming errors.
-- Problems importing 3D models.
-- Spaceship movement not working correctly.
-- Unity component or physics issues.
-- Keeping my project organized.
-
-If I run into problems, I will use Unity's Console, Visual Studio debugging tools, and documentation to figure out what went wrong.
-
-## Reusable Work and Credits
-
-I plan to reuse my original C# scripts, project structure, and game mechanics in future projects.
-
-If I use outside assets, I will check their licenses and record the creator, source, and any required credits.
-
-## Final Reflection – Week 12A
-
-During Week 12A, I
+Today I completed my work on the six game development pipeline videos and finished setting up and testing my Unity project. I learned how to organize my files, import a custom character, work with prefabs, and test my game. I also fixed the problems I encountered and saved my progress to GitHub. This assignment helped me understand how the different parts of game development work together, and I can use what I learned for future game projects.
